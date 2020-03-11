@@ -1,0 +1,25 @@
+.shopping-cart-table {
+    width: 100%;
+    margin: 1em 0;
+}
+
+.shopping-cart-table tr {
+    border-bottom: 1px solid #eee;
+}
+
+.shopping-cart-table td,
+.shopping-cart-table th{
+    padding: .5em 1em;
+}
+
+.shopping-cart-table__actions {
+    text-align: right;
+}
+
+.shopping-cart-table .btn {
+    margin: 0 .25em;
+}
+
+.total-price {
+    text-align: right;
+}

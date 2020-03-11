@@ -1,0 +1,31 @@
+.book-list-item {
+    display: flex;
+    margin: 2em 0;
+    font-size: 1rem;
+}
+
+.book-list-item .book-cover {
+    flex-shrink: 0;
+    margin-right: 2em;
+    width: 140px;
+}
+
+.book-list-item .book-cover img {
+    max-width: 100%;
+}
+
+.book-list-item .book-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.book-list-item .book-title,
+.book-list-item .book-price {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.book-list-item .book-details .btn {
+    max-width: 130px;
+}
